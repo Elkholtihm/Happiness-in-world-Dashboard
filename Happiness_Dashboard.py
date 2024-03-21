@@ -5,12 +5,10 @@ import numpy as np
 import plotly.express as px
 import plotly.subplots as ps 
 from streamlit_extras.metric_cards import style_metric_cards
-import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 from sklearn.preprocessing import MinMaxScaler
-from PIL import Image
 
 #___________________________________ set page___________________________________________________________________ 
 st.set_page_config(
@@ -23,7 +21,7 @@ st.subheader("World Happiness Dashboard")
 #________________________________data cleaning and collection ______________________________________
 # importation de donnees
 df=["df"+str(i) for i in range(5,24)]
-filepath = [r"C:\Users\user\Desktop\ci1\projects\dataviz\happiness\{}.csv".format(year) for year in range(2005, 2024)]
+filepath = [r"C:\Users\user\Desktop\ci1\projects\dataviz\Data\{}.csv".format(year) for year in range(2005, 2024)]
 j=0
 for file,d in zip(filepath,df) :
     d=pd.read_csv(file)
