@@ -10,7 +10,7 @@ the Dashboard provide an interactive visualization of the Happiness score and ot
 # Usage
 1. clone this repository in you're local machine.
 2. install the required dependencies by runing this commande:
-   'pip install -r requirements'
+   '**pip install -r requirements**'
 3. Run the dashboard using this commande 'streamlit run Happiness_Dashboard.py'
 4. Use the filters and the interactive plots to explore the Happiness data
 
