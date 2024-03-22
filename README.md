@@ -19,5 +19,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 # Acknowledgments
 ### Data source: Kaggle : 'World Happiness Dataset (2005 to 2023)'
-`https://www.kaggle.com/datasets/rabinnepal/world-happiness-dataset-2005-to-2023?select=2005.csv`
+https://www.kaggle.com/datasets/rabinnepal/world-happiness-dataset-2005-to-2023?select=2005.csv
 ### Built with Streamlit and Plotly 
